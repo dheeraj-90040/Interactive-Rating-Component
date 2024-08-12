@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Interactive Rating Component</title>
+</head>
+
+<body>
+  <div class="main">
+    <!-- Rating Box -->
+    <div class="container block" id="rating_box">
+      <img src="./images/icon-star.svg" alt="Glowing Star" class="star">
+      <h3>How did we do?</h3>
+      <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our
+        offering!</p>
+      <div class="flex rating">
+        <a href="#" class="rate">1</a>
+        <a href="#" class="rate">2</a>
+        <a href="#" class="rate">3</a>
+        <a href="#" class="rate">4</a>
+        <a href="#" class="rate">5</a>
+      </div>
+      <button type="submit" class="btn">Submit</button>
+    </div>
+
+    <!-- Thank You Box -->
+    <div class="container" id="thankyou_box">
+      <img src="./images/illustration-thank-you.svg" alt="Thank You" class="feedback block">
+      <div class="selection">You selected <span id="rated">5</span> out of 5</div>
+      <h3 class="thank">Thank you!</h3>
+      <p class="thank_msg">We appreciate you taking the time to give a rating. If you ever need more support, don’t
+        hesitate to get in touch!</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
